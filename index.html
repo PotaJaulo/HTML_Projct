@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Primeiro projeto HTML</title>
+</head>
+<body>
+    <h1 style="font-family:Verdana, Geneva, Tahoma, sans-serif;">
+        Projeto <strong><i>HTML</i></strong>: Usando tags aprendidas
+    </h1><hr>
+    <h1 id="topo">
+        Índice
+    </h1>
+    <p>Navegue entre as <strong>aulas</strong> abaixo:</p>
+    <ul>
+        <li><a href="#i">Ferramentas utilizadas</a>              (Aula 1)</li>
+        <li><a href="#i2">Inspetor de elementos</a>               (Aula 2)</li>
+        <li><a href="#i3">Estrutura básica do HTML</a>            (Aula 3)</li>
+        <li><a href="#i4">Falando sobre Tags </a>                 (Aula 4)</li>
+        <li><a href="#i5">Atributos das Tags   </a>               (Aula 5)</li>
+        <li><a href="#i6">Tags específicas para textos </a>       (Aula 6)</li>
+        <li><a href="#i7">Listas ordenadas e não ordenadas</a>    (Aula 7)</li>
+        <li><a href="#i8">Links </a>                              (Aula 8)</li>
+        <li><a href="#i9">Referências</a></li>
+    </ul>
+    <hr>
+    <p> O presente desafio fornece um breve resumo das aulas lecionadas neste curso (Primeiros passos com HTML).</p>
+
+    <h3 id="i">
+        Ferramentas utilizadas <br>
+        <small style="font-size: x-small;"><i><a href="#topo">Topo</a></i></small>
+    </h3>
+    <p>Esta aula foi uma preparação do ambiente para começar a por a mão na massa. Foi feita a instalação do <strong><u><abbr title="Virtual Studio Code">VScode</abbr></u></strong> e da extensão <strong>Live Server</strong> <del> e do Emmet</del> <ins> e vemos o funcionamento do Emmet, já pré-instalado no VSCode.</ins>
+    </p>
+    <h3 id="i2">
+        Inspetor de elementos <br>
+        <small style="font-size: x-small;"><i><a href="#topo">Topo</a></i></small>
+    </h3>
+    <p>
+          Essa é a ferramenta do desenvolvedor no navegador, é acessada pela tecla <u>F12</u> ou clique direito num espaço branco --> Inspecionar <br>
+          Esse recurso é útil para estudar, tomando como exemplo páginas conhecidas. Podendo reconhecer estrtuturas e elementos das páginas, como foram feitos, suas delimitações e suas formatações (CSS). Também é possível manipular elementos da página, mudando textos, suas características, entre outras coisas. <br>
+        É ótimo para aprender "fuçando".
+    </p>
+    <h3 id="i3">
+        Estrutura básica do HTML <br>
+        <small style="font-size: x-small;"><i><a href="#topo">Topo</a></i></small>
+    </h3>
+    <p>
+        Nesta aula, aprendi a criar pastas e arquivos no <strong><u><abbr title="Virtual Studio Code">VScode</abbr></u></strong>, utilizando a terminação ".html" e a nomenclatura convencional "index.html" para a página principal do site.
+    </p>
+    <p>Sobre a estrutura do HTML, ele se divide em 3 partes:
+        <ol>
+            <li> A tag html </li>
+            <li> A tag Head</li>
+            <li> A tag Body</li>
+        </ol>
+        A tag <strong>HTML</strong> compreende toda a página html <br>
+        A tag <strong>Head</strong>  representa configurações e efeitos carregados antes da exibição do site. <br>
+        A tag <strong>Body</strong> é o que vai aparecer no corpo do site.
+    </p>
+    <h3 id="i4">
+        Falando sobre tags <br>
+        <small style="font-size: x-small;"><i><a href="#topo">Topo</a></i></small>
+    </h3>
+    <p>As tags são comandos que indicam ao navegador a estrutura do site.</p>
+    <p>
+        Praticamente todas precisam ser abertas ("< >") e fechadas ("< / >"), enquanto algumas não tem fechamento, como as tags input e img, que tem seu uso acompanhado com <strong>atributos</strong>, que serão melhor detalhados a seguir.
+    </p>
+    <h3 id="i5">
+        Atributos das Tags <br>
+        <small style="font-size: x-small;"><i><a href="#topo">Topo</a></i></small>
+    </h3>
+    <p>
+        Os atributos das tags são propriedades que uma tag pode ter. Os atributos se localizam dentro da tag, podendo ser atributos mais gerais/globais e atributos específicos.
+    </p>
+    <p>Os atributos globais podem dar nome (name), dar um fator identificador (id) ou para dar comandos CSS(style). Esses são apenas alguns deles.</p>
+    <p>Já os atributos específicos são utilizados em conjunto com certas tags, tendo como propósito modificar o funcionamento daquela tag. Temos como exemplo o input, que necessita do "type" para determinar que tipo de campo será criado; no caso da tag img, há o atributo "src", que recebe o endereço da imagem.
+    </p>
+    <h3 id="i6">
+        Tags específicas para textos <br>
+        <small style="font-size: x-small;"><i><a href="#topo">Topo</a></i></small>
+    </h3>
+    <p>Nesta aula, foram apresentadas as tags mais comuns para textos, como:</p>
+    <ul>
+        <li>Tag <strong><u>u</u></strong>: Sublinhado</li>
+        <li>Tag <strong><u>p</u></strong>: parágrafo</li>
+        <li>Tag <strong><u>i</u></strong>: Itálico</li>
+        <li>Tag <strong><u>mark</u></strong>: Realce</li>
+        <li>Tag <strong><u>sub</u></strong>: Subescrito</li>
+        <li>Tag <strong><u>sup</u></strong>: Superescrito</li>
+        <li>Tag <strong><u>strong</u></strong>: Negrito</li>
+        <li>Tag <strong><u>blockquote</u></strong>: Citação de terceiros</li>
+        <li>Tag <strong><u>hr</u></strong>: Linha horizontal</li>
+        <li>Tag <strong><u>small</u></strong>: Cria um texto pequeno</li>
+    </ul>
+    <small style="margin-left: 320px;">Para mais tags: <a href="https://www.w3schools.com/tags/" target="_blank">W3Schools</a></small>
+    <h3 id="i7">
+        Listas ordenadas e não ordenadas <br>
+        <small style="font-size: x-small;"><i><a href="#topo">Topo</a></i></small>
+    </h3>
+    <p>
+        Uso de listas, como listas de tópicos. Elas podem ser Ordenadas/enumeradas, como a tag <strong><u>ol</u></strong> (Ordened List) e não enumeradas/não ordenadas com a tag <strong><u>ul</u></strong> (Unordened List).
+    </p>
+    <p>
+        Estas tag necessitam do uso que a tag filha <strong><u>li</u></strong> (List Item) seja usada em seu interior para o desígnio dos itens da lista.
+    </p>
+    <h3 id="i8">
+        Links <br>
+        <small style="font-size: x-small;"><i><a href="#topo">Topo</a></i></small>
+    </h3>
+    <p>
+        Aqui começamos a "navegar" realmente. Com o uso de links vamos transitar entre páginas. Usaremos a tag <strong><u>a</u></strong><br> , a de "anchor", âncora.
+        <blockquote> "É como se você ao "navegar" e aportar numa costa/ilha (que seria um site), você <u>ancora</u> neste lugar.</blockquote>
+        A tag <strong><u>a</u></strong> necessita de um atributo, o "href", que vai receber o endereço/url
+        Ex: <mark><sub><</sub> a href="dio.me" <sub>></sub> Texto clicável do link <sub>< /</sub> a <sub>></sub> </mark> <br>
+        Por padrão, o link vai ser aberto na mesma aba do navegador. Para abrir em outra aba, é preciso usar outro atributo, o <u>target= "_blank"</u>
+    </p>
+    <p>
+        Também é possivel usar o link para viajar nos arquivos html de uma mesma pasta. Basta colocar seu nome no href. <br>
+        Também é usado para <strong>"ancoragem</strong>, que é navegar por links numa mesma página. Nesse caso é necessário que a tag destino desse link tenha um atributo <strong>id</strong>. Com isso, coloca-se no href com um "#" na frente do id. <br>
+        Ex: Criei uma tag p com id="x" <br>
+        <mark><sub><</sub> a href="#x" <sub>></sub> Texto clicável<sub>< /</sub> a <sub>></sub></mark> <br>
+    </p>
+    <h3 id="i9">
+        Referências <sup style="font-size: small;">Links</sup> <br>
+        <small style="font-size: x-small;"><i><a href="#topo">Topo</a></i></small>
+    </h3>
+    <Ol>
+        <li>https://www.w3schools.com/tags/tag_del.asp</li>
+        <li>https://www.w3schools.com/tags/tag_abbr.asp</li>
+        <li>https://www.w3schools.com/tags/tag_font.asp</li>
+    </Ol>
+</body>
+</html>
