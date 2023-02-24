@@ -1,2 +1,2 @@
 # HTML_Projct
-Repositório destinado para projetos de ensino, feitos durante cursos/formações.
+Repositório destinado para projetos HTML, feitos durante cursos/formações.
